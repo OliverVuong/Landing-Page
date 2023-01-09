@@ -4,12 +4,19 @@ body {
 }
 
 .header,
+.container.welcome,
+.container.linktree,
+.container.quote,
+.container.calltoaction {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.header,
 .container.welcome {
     background-color: #1F2937;
     color: #F9FAF8;
     /*color: white;*/
-    padding-left: 150px;
-    padding-right: 150px;
 }
 
 .header {
@@ -80,4 +87,41 @@ button {
     font-size: 16px;
     border: none;
     border-radius: 4px;
+}
+
+/* Linktree container CSS*/
+.container.linktree {
+    background-color: #F9FAF8;
+    color: #1F2937
+}
+
+.linktree.title {
+    text-align: center;
+    font-size: 32px;
+    padding: 30px 0;
+}
+
+.alllinks {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.linktree img {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 14px;
+}
+
+.container.wholelink {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .subtext{
+    padding: 8px;
 }
