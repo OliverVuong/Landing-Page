@@ -85,6 +85,7 @@ button {
     color: white;
     padding: 4px 30px;
     font-size: 16px;
+    font-weight: bold;
     border: none;
     border-radius: 4px;
 }
@@ -144,4 +145,33 @@ button {
     text-align: end;
     font-size: 26px;
     font-weight: bold;
+}
+
+.container.calltoaction {
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.bluebox {
+    background-color: #3882F6;
+    height: 150px;
+    border-radius: 14px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.calltoaction .signup.maintext {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.calltoaction .signup.subtext {
+    padding: 0;
+}
+
+.calltoaction button {
+    border: 2px solid white;
 }
