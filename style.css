@@ -125,3 +125,23 @@ button {
 .container .subtext{
     padding: 8px;
 }
+
+.container.quote {
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 65px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0px 50px 10px 50px;
+}
+
+.attribution {
+    padding-right: 50px;
+    text-align: end;
+    font-size: 26px;
+    font-weight: bold;
+}
